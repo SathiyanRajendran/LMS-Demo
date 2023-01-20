@@ -17,7 +17,7 @@ namespace LMS.Models
         //[ForeignKey("MGR_ID")]
 
         public DateOnly Applied_Date { get; set; }  
-
+         
         public int LeaveTypeId { get; set; }
         [ForeignKey("LeaveTypeId")]
 
