@@ -9,7 +9,7 @@ namespace LMS.Models
         [Key]
         public int UserMaster_Id { get; set; }
 
-        public string User_Sh { get; set; } 
+        public string User_ShortName { get; set; } 
 
         public string User_Name { get; set;}
 
